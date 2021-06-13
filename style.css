@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.main{
+	background-color: #E1E4E9;
+	width: 100%;
+	height: 700px;
+
+	overflow: hidden;
+}
+
+.mid{
+	background-color: ;
+	width: 90%;
+	height: 700px;
+	margin: auto;
+
+	overflow: hidden;
+}
+
+.price{
+	background-color: ;
+	width: 100%;
+	height: 700px;
+	margin: auto;
+
+	margin-top: 90px;
+
+	position: relative;
+}
+
+.price .left{
+	background-color: white;
+	width: 20%;
+	height:470px;
+
+	display: inline-block;
+
+	position: absolute;
+	top: 0px;
+	left: 120px;
+
+	padding: 0px 30px 30px 30px;
+
+	font-family: arial;
+
+}
+
+.price .left .popular{
+	width: 80%;
+	height: 50px;
+	background-color: white;
+
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.price .left .popular p{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+	margin: 14px 0px;
+}
+
+.price .left:hover{
+	transform: scale(1.2);
+	z-index: 1;
+	transition: 1s;
+}
+
+.price .left:hover .popular{
+	background-color: #EF254D;
+	transition: 1s;
+}
+
+.price .left:hover .popular p{
+	color: white;
+}
+
+
+.price .middle{
+	background-color: white;
+	width: 20%;
+	height:470px;
+
+	display: inline-block;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+
+	margin: auto;
+
+	padding: 0px 30px 30px 30px;
+
+	font-family: arial;
+}
+
+.price .middle:hover{
+	transform: scale(1.2);
+	z-index: 1;
+	transition: 1s;
+}
+
+.price .middle .popular{
+	width: 80%;
+	height: 50px;
+	background-color: white;
+
+	margin: auto;
+	overflow: hidden;
+}
+
+.price .middle .popular p{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+	margin: 14px 0px;
+}
+
+.price .middle:hover .popular{
+	background-color: #EF254D;
+	transition: 1s;
+}
+
+.price .middle:hover .popular p{
+	color: white;
+}
+
+.price .right{
+	background-color: white;
+	width: 20%;
+	height:470px;
+
+	display: inline-block;
+
+	position: absolute;
+	top: 0px;
+	right: 120px;
+
+	padding: 0px 30px 30px 30px;
+
+	font-family: arial;
+}
+
+.price .right:hover{
+	transform: scale(1.2);
+	z-index: 1;
+	transition: 1s;
+}
+
+.price .right .popular{
+	width: 80%;
+	height: 50px;
+	background-color: white;
+
+	margin: auto;
+	overflow: hidden;
+}
+
+.price .right .popular p{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+	margin: 14px 0px;
+}
+
+.price .right:hover .popular{
+	background-color: #EF254D;
+	transition: 1s;
+}
+
+.price .right:hover .popular p{
+	color: white;
+}
+
+/*left design*/
+
+.price .left{
+	text-align: center;
+}
+
+.price .left h2{
+	margin: 20px 0px 20px 0px;
+}
+
+.price .left hr:nth-child(3){
+	width: 70px;
+	height: 1px;
+	background-color: #C0C2C6;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.price .left h1{
+	font-size: 60px;
+	color: #001632;	
+}
+
+.price .left h1 sup{
+	font-size: 20px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.price .left h3{
+	color: #5F5E64;
+	margin-bottom: 20px;
+}
+
+.price .left p{
+	color: gray;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.price .left p i{
+	color: #B98C49;
+	margin-right: 10px;
+}
+
+.price .left p span{
+	font-weight: bold;
+	color: black;
+	margin-right: 10px;
+}
+
+.price .left input{
+	width: 180px;
+	height: 50px;
+	background-color: #003169;
+	color: #DDF2FF;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	margin-top: 40px;
+}
+
+/*middle Design*/
+
+.price .middle{
+	text-align: center;
+}
+
+.price .middle h2{
+	margin: 20px 0px;
+}
+
+.price .middle hr:nth-child(3){
+	width: 70px;
+	height: 1px;
+	background-color: #C0C2C6;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.price .middle h1{
+	font-size: 60px;
+	color: #001632;	
+}
+
+.price .middle h1 sup{
+	font-size: 20px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.price .middle h3{
+	color: #5F5E64;
+	margin-bottom: 20px;
+}
+
+.price .middle p{
+	color: gray;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.price .middle p i{
+	color: #B98C49;
+	margin-right: 10px;
+}
+
+.price .middle p span{
+	font-weight: bold;
+	color: black;
+	margin-right: 10px;
+}
+
+.price .middle input{
+	width: 180px;
+	height: 50px;
+	background-color: #003169;
+	color: #DDF2FF;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	margin-top: 40px;
+}
+
+/*Right design*/
+
+.price .right{
+	text-align: center;
+}
+
+.price .right h2{
+	margin: 20px 0px;
+}
+
+.price .right hr:nth-child(3){
+	width: 70px;
+	height: 1px;
+	background-color: #C0C2C6;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.price .right h1{
+	font-size: 60px;
+	color: #001632;	
+}
+
+.price .right h1 sup{
+	font-size: 20px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.price .right h3{
+	color: #5F5E64;
+	margin-bottom: 20px;
+}
+
+.price .right p{
+	color: gray;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.price .right p i{
+	color: #B98C49;
+	margin-right: 10px;
+}
+
+.price .right p span{
+	font-weight: bold;
+	color: black;
+	margin-right: 10px;
+}
+
+.price .right input{
+	width: 180px;
+	height: 50px;
+	background-color: #003169;
+	color: #DDF2FF;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	margin-top: 40px;
+}
+
+/*Hover Section Design*/
+
+
+.price .left:hover{
+	background-color: #003169;
+	color: white;
+}
+.price .left:hover h2{
+	color: white;
+}
+.price .left:hover h1{
+	color: white;
+}
+.price .left:hover p span{
+	color: white;
+}
+.price .left:hover input{
+	color: #003169;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*Middle Hover*/
+
+.price .middle:hover{
+	background-color: #003169;
+	color: white;
+}
+.price .middle:hover h2{
+	color: white;
+}
+.price .middle:hover h1{
+	color: white;
+}
+.price .middle:hover p span{
+	color: white;
+}
+.price .middle:hover input{
+	color: #003169;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*Right Hover*/
+
+.price .right:hover{
+	background-color: #003169;
+	color: white;
+}
+.price .right:hover h2{
+	color: white;
+}
+.price .right:hover h1{
+	color: white;
+}
+.price .right:hover p span{
+	color: white;
+}
+.price .right:hover input{
+	color: #003169;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.price .left .popular:hover{
+	display: block;
+}
