@@ -1,3 +1,3 @@
 # Price-Table
-
--Class 17- Price table
+https://abusalehshuvo.github.io/Price-Table/
+- Class 17- Price table
